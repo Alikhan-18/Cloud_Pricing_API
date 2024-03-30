@@ -23,3 +23,4 @@ def pricing_comparitor():
     final=merged_df.select("SKUAzure","yearly_ondemand_price","SKUAWS","yearly_ondemanded_pricing")
     final.show()
 pricing_comparitor()
+#AWS & Azure comparator

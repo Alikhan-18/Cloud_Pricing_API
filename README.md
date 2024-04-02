@@ -4,18 +4,23 @@ This use case focusses on AWS Price List API & Azure services with JSON file sto
 
 Key Components:
 
-AWS Price List API Integration: We seamlessly integrate with the AWS Price List API to access up-to-date pricing information for AWS services, ensuring accuracy and reliability in our data extraction process.
-Azure Services Data Retrieval: In addition to AWS, we gather pricing data from Azure services, ensuring comprehensive coverage across major cloud service providers.
-Data Extraction and Parsing: Our system is equipped to extract data efficiently from both AWS API responses and on-premises JSON files. We employ sophisticated parsing techniques to handle complex nested JSON structures, transforming them into a standardized schema for easy analysis.
-Dynamic Data Handling: To accommodate dynamic changes in pricing and service offerings, we maintain a configuration file that allows for seamless adjustments and updates to the data extraction process.
-Distributed Computing: Complete distributed computing architecture is implemented to ensure scalability and performance optimization. By distributing computing tasks across multiple nodes, we achieve efficient processing of large volumes of data.
+1. AWS Price List API Integration: We seamlessly integrate with the AWS Price List API to access up-to-date pricing information for AWS services, ensuring accuracy and reliability in our 
+   data extraction process.
+2. Azure Services Data Retrieval: In addition to AWS, we gather pricing data from Azure services, ensuring comprehensive coverage across major cloud service providers.
+3. Data Extraction and Parsing: Our system is equipped to extract data efficiently from both AWS API responses and on-premises JSON files. We employ sophisticated parsing techniques to 4. handle complex nested JSON structures, transforming them into a standardized schema for easy analysis.
+5. Dynamic Data Handling: To accommodate dynamic changes in pricing and service offerings, we maintain a configuration file that allows for seamless adjustments and updates to the data 
+   extraction process.
+6. Distributed Computing: Complete distributed computing architecture is implemented to ensure scalability and performance optimization. By distributing computing tasks across multiple 
+   nodes, we achieve efficient processing of large volumes of data.
 
 Expected Outcomes:
 
-AWS and Azure Price Listings Data: Comprehensive datasets containing pricing information for AWS and Azure services, extracted and standardized for analysis and comparison.
-Parsed Data with Standard Schema: Extracted data transformed into a standardized schema, facilitating easy integration with existing analytics pipelines and tools.
-Dynamic Configuration Handling: Maintenance of a flexible configuration file to adapt to dynamic changes in pricing and service offerings, ensuring data accuracy and relevance over time.
-Scalable Distributed Computing Architecture: Implementation of a distributed computing framework to handle large-scale data processing, ensuring efficient extraction and parsing of pricing data.
+1. AWS and Azure Price Listings Data: Comprehensive datasets containing pricing information for AWS and Azure services, extracted and standardized for analysis and comparison.
+   Parsed Data with Standard Schema: Extracted data transformed into a standardized schema, facilitating easy integration with existing analytics pipelines and tools.
+2. Dynamic Configuration Handling: Maintenance of a flexible configuration file to adapt to dynamic changes in pricing and service offerings, ensuring data accuracy and relevance over 
+   time.
+3. Scalable Distributed Computing Architecture: Implementation of a distributed computing framework to handle large-scale data processing, ensuring efficient extraction and parsing of 
+   pricing data.
 
 Impact:
 
